@@ -3,7 +3,7 @@ package math
 import (
 	"math/big"
 
-	"ellipticcurve/point"
+	"github.com/hygame-repo/ellipticcurve/point"
 )
 
 type Mather interface {

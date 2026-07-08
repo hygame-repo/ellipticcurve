@@ -3,7 +3,7 @@ package signature
 import (
 	"math/big"
 
-	"ellipticcurve/utils"
+	"github.com/hygame-repo/ellipticcurve/utils"
 )
 
 type Signature struct {

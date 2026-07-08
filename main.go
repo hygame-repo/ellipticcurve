@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"sort"
 
-	"ellipticcurve/ecdsa"
-	"ellipticcurve/privatekey"
-	"ellipticcurve/publickey"
-	"ellipticcurve/signature"
+	"github.com/hygame-repo/ellipticcurve/ecdsa"
+	"github.com/hygame-repo/ellipticcurve/privatekey"
+	"github.com/hygame-repo/ellipticcurve/publickey"
+	"github.com/hygame-repo/ellipticcurve/signature"
 )
 
 const testPublicKey = "-----BEGIN PUBLIC KEY-----\n" +

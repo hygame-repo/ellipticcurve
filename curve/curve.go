@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"ellipticcurve/point"
+	"github.com/hygame-repo/ellipticcurve/point"
 )
 
 type CurveFper interface {

@@ -4,11 +4,11 @@ import (
 	"crypto/sha256"
 	"math/big"
 
-	"ellipticcurve/math"
-	"ellipticcurve/privatekey"
-	"ellipticcurve/publickey"
-	"ellipticcurve/signature"
-	"ellipticcurve/utils"
+	"github.com/hygame-repo/ellipticcurve/math"
+	"github.com/hygame-repo/ellipticcurve/privatekey"
+	"github.com/hygame-repo/ellipticcurve/publickey"
+	"github.com/hygame-repo/ellipticcurve/signature"
+	"github.com/hygame-repo/ellipticcurve/utils"
 )
 
 func Sign(message string, privateKey *privatekey.PrivateKey) signature.Signature {

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"ellipticcurve/curve"
-	"ellipticcurve/math"
-	"ellipticcurve/publickey"
-	"ellipticcurve/utils"
+	"github.com/hygame-repo/ellipticcurve/curve"
+	"github.com/hygame-repo/ellipticcurve/math"
+	"github.com/hygame-repo/ellipticcurve/publickey"
+	"github.com/hygame-repo/ellipticcurve/utils"
 )
 
 type PrivateKey struct {
